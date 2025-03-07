@@ -35,6 +35,7 @@ namespace Bookss
                     return book;
 				}
 			}
+			Console.WriteLine($" A Cim amit keresel " + "" + title + " ");
 			Console.WriteLine("Nincs Ilyen");
 			return null;
 		}
